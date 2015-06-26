@@ -94,7 +94,7 @@ Now that we have a repo to work in we can start adding files & working on them. 
 1. Check your repo for unstaged/staged/tracked/untracked files by entering `git status` in the terminal. You should see `README.md` in red under "Changes not staged for commit".
 2. To move the README into the staging area. Enter `git add README.md`. 
 3. Enter `git status`. This time, README should be in green under "Changes to be committed".
-4. Enter `git commit -m "adding README file"`. the `-m` stands for message. The string in paranthesis will be tied to the changes you made in this commit so that you and other users can look back with ease & not have to read all the code. Commits will be rejected without a message. 
+4. Enter `git commit -m "adding README file"`. the `-m` stands for message. The string in parenthesis will be tied to the changes you made in this commit so that you and other users can look back with ease & not have to read all the code. Commits will be rejected without a message. 
 5. Enter `git status`. There should be no trace of your README file. README has been committed to your repo & now we need to push it to the branch. (We'll get to branches in a minute.)
 6. The last step to finalize the update is pushing the changes to a repo & branch on github. For this step we will enter `git push origin master`.
 
@@ -104,9 +104,15 @@ You did it! You just made your first commit & your first push!
 
 Branches are places where you can make changes, without affecting the master branch. It's important to start working this way from the get-go because when you get on bigger & bigger projects, you will want to test your changes before you make them public. You can have as many branches as you want. Let's make our first branch!
 
-1. x
-2. y
-3. z
+1. Enter `git branch` to check the branches available to you at this time. Your terminal should output `* master` since you haven't yet made any other branches.
+2. Enter `git branch testingbranch` to create a new branch called testingbranch. 
+3. Enter `git branch` to verify the creation of testing branch. This time your Terminal will output `* master    testingbranch`
+4. Enter `git checkout testingbranch` to switch over to the testingbranch. Now all the commits you make need to be pushed to the branch you are in. From now until you switch, pushing will be finalized with the command `git push origin testingbranch`.
+
+Quick Tip: You can bypass step 2 by modifying step 3 to `git checkout -b testingbranch`. This does step 2 & 3 at the same time. 
+
+Quick Tip: Once you've settled into a branch & will only be pushing to that one branch, you can command the push with `git push -u origin testingbranch` and shorten your push command to `git push` until you change branches. You will have to switch it in your push command by reverting back to the older command `git push origin branchname`. 
+ 
 
 ##Tracking Changes
 
