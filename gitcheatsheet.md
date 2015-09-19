@@ -6,16 +6,21 @@ An easy to navigate reference for all your Command Line needs!
 
 | Command 			|	Use 										|
 |-------------------|-----------------------------------------------|
+| `pwd`				| 	print working directory						|
 | `cd`				|	change directory 							|
 | `cd ..` 			| 	go back one directory 						|
 | `cd - `			| 	go back to previous working directory 		|
-| `ls`				|	list (files in directory) 					|
+| `ls`/`dir`		|	list (files in directory) (mac/windows)		|
+| `mkdir`			| 	makes a new directory						|
+| `rm`				|	remove file 								|
+| `rmdir`			|	remove directory							|
 | Tab				|	completing arguments 						|
 | CTRL-P/CMMD-P		|	recalls the previous command  (up arrow) 	|
 | CTRL-R/CMMD-R 	|	search command history 						|
 | CTRL-W/CMMD-W 	|	deletes the last word						|
 | CTRL-U/CMMD-U 	|	deletes the whole line 						|
 | CTRL-L/CMMD-L		|	clear screen 								|
+| `q`				| 	quits any help or manual printing & starts a new command prompt 	|
 
 ##Git
 
@@ -77,6 +82,7 @@ An easy to navigate reference for all your Command Line needs!
 
 ###Self Directed
 * [Pro Git](http://git-scm.com/book/en/v2)
+* [Git Reference](http://gitref.org/)
 * [First Aid Git](http://firstaidgit.io/#/)
 * [Understanding GitHub](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oGqRd1nOhtuidI%3F_escaped_fragment_=)
 * [Git Youtube Videos](https://www.youtube.com/playlist?list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH)
