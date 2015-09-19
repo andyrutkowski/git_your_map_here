@@ -34,6 +34,7 @@ An easy to navigate reference for all your Command Line needs!
 | `git add filename.filetype`	| adds a file to the staging area				|
 | `git add --all`				| adds all files that are tracked & untracked to the staging area 	|
 | `git add -A`					| same as `git add --all`						|
+| `git add -p`					| adds the file & displays all the changes made to the file since the last commit. Changes must be approved for the staging in hunks.	|
 | `git add '*.filetype'`		| adds all files of the filetype specified to the staging area (* = wildcard)	|
 | `git commit -m "message"`		| commits staged files to the repo				|
 | `git commit -a -m "message"`	| add changes from all tracked files in one line/step (doesn't add new untracked files)	|
