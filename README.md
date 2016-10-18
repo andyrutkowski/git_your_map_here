@@ -1,20 +1,20 @@
 ![alt text](https://raw.githubusercontent.com/maptimeLA/git_your_map_here/master/images/gityourmaps.jpg "Cover")
 
-# Git your map right here! on github!
+# Git your map right here! on GitHub!
 
-An intro to make a simple map, host it locally, and use git terminal to update one’s repo. Help young Regen (photographed above) learn to make a map!
+Everyone's introduction to making a web map, run it locally on your own machine and publish it to the Internet. 🌐 Help young Regen (photographed above) learn to make a map!
 
-###Presentations:
-[Simple map presentation](http://maptimela.github.io/git_your_map_here/index_slide.html)
+### Follow along the presentations:
+- [Simple map presentation](http://maptimela.github.io/git_your_map_here/index_slide.html)
 
-[Get Git Got presentation](http://slides.com/patriciarealini/get-git-got#/)
+- [Get Git Got presentation](http://slides.com/patriciarealini/get-git-got#/)
 
 ### Check out the map:
 
-Map: http://maptimela.github.io/git_your_map_here/
-Data Source: [City of LA](https://data.lacity.org/A-Well-Run-City/Neighborhood-Council-Office-Location-Map/nnrh-gpbn) - Neighborhood Council Office Location Map (Updated May 30, 2014)
+- Map: http://maptimela.github.io/git_your_map_here/
+- Data Source: [City of LA](https://data.lacity.org/A-Well-Run-City/Neighborhood-Council-Office-Location-Map/nnrh-gpbn) - Neighborhood Council Office Location Map (Updated May 30, 2014)
 
-The data was converted from Socrata’s `json` type to `geoJSON` with [socrata-geojson](https://github.com/mvexel/socrata-geojson)
+> Thank yous: The data was converted from Socrata’s `json` type to `geoJSON` with [socrata-geojson](https://github.com/mvexel/socrata-geojson)
 
 ### Steps:
 0. Open the Terminal/Powershell app and a web browser. Get a GitHub account and fork the repository.
