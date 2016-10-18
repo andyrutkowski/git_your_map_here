@@ -27,7 +27,7 @@
 		var map = L.map('map').setView([34.052234, -118.243685], 10);
 		
 		// Adds tile layer to map with id, 'map'
-		var latimes = L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png').addTo(map);
+		var myTileLayer = L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png').addTo(map);
 		
 		// Creates variables for the file path of our .geojson files, in the /data/ folder
 		var nc_boundaries_file = "data/nc_boundaries.geojson";
