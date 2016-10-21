@@ -5,7 +5,7 @@
 Everyone's introduction to making a web map, run it locally on your own machine and publish it to the Internet. 🌐 Help young Regen (photographed above) learn to make a map!
 
 ### Follow along the presentations:
-- [Simple map presentation](http://maptimela.github.io/git_your_map_here/index_slide.html)
+- [Simple map presentation](http://maptimela.github.io/git_your_map_here/slides.html)
 
 - [Get Git Got presentation](http://slides.com/patriciarealini/get-git-got#/)
 
